@@ -3,5 +3,5 @@
 $host = "localhost";  //адрес сервера
 $database = "dev";    //база данных
 $user = "root";       //имя пользователя
-$password = "root";   //паоль
+$password = "root";   //пароль
 ?>

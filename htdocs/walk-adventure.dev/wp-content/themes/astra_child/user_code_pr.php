@@ -8,7 +8,7 @@ require_once 'db_connect.php';
 //$host = 'localhost';  //адрес сервера
 //$database = 'dev';    //база данных
 //$user = 'root';       //имя пользователя
-//$password = 'root';   //паоль
+//$password = 'root';   //паольjj
 
 //Подключение к базе данных
 $l_code = $_POST['l_code'];
