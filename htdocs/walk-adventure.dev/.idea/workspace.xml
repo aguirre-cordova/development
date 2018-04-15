@@ -47,6 +47,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/wp-content/themes/astra_child/js/script.js" />
+        <option value="$PROJECT_DIR$/wp-content/themes/astra_child/db_connect.php" />
       </list>
     </option>
   </component>
@@ -154,6 +155,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="23" width="1260" height="733" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
