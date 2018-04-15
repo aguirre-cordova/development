@@ -16,7 +16,7 @@ $link = mysqli_connect($host,$user,$password,$database)
   or die("Ошибка подключения к БД: ").mysqli_error($link);
 echo  mysqli_error($link);
 
-//Обработка данных
+//Обработка данны[
 $check = mysqli_query($link,
 "select 1 from
   fnd_users fu
@@ -35,14 +35,7 @@ if(mysqli_num_rows($check)> 0)
 {
     echo "Корректный код: ".$_POST['l_code'];
     sleep(2);
-//Редирект
-//    header('Location: http://'.$_SERVER['HTTP_HOST'].$quest_1/);
-//exit();
-//echo("<script>location.href='http://localhost/walk-adventure.dev/quest_1'</script>");
 
-//header( "Location: http://localhost/walk-adventure.dev/quest_1" );
-    //header('url=http://localhost/walk-adventure.dev/quest_1/');
-  //  exit();
 }
 else {
   echo "Вы ввели не верный код ".$_POST['l_code'];

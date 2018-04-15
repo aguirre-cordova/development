@@ -36,7 +36,7 @@ jQuery("#status").text("Проверка кода. Подождите");
 //Функция, которая будет выполнять после обработки данных
 function funcSuccess(data){
 jQuery("#status").text(data);
-window.location = "http://www.google.com";
+//window.location = "http://www.google.com";
 //$(location).attr('href',url);
 }
 
