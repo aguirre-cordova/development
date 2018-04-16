@@ -5,14 +5,12 @@ jQuery(document).ready(function () {
     //Обработка нажатия кнопки id
     jQuery("#start_button a").click(function () {
         alert("Нажата кнопка");
-        var l_code;
+        var l_input_code;
         //Считать переменную
-        l_code = jQuery('#input_code').html();
-        alert(l_code);
+        l_input_code = jQuery('input[name="input_code"]').val();
+        alert(l_input_code);
         //if then else
-        if (l_code == '') { //
-
-            alert("Значение не задано");
+        if (l_input_code == '') { //
             //Очищаем блок от предыдущего выполнения
             jQuery('#no_code').empty();
             jQuery('#no_code').append("Введите код доступа");
